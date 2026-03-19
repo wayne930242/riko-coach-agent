@@ -2,7 +2,7 @@
   "mcpServers": {
     "health-coach": {
       "command": "uv",
-      "args": ["run", "--project", "${CLAUDE_PLUGIN_ROOT}/mcp-server", "python", "${CLAUDE_PLUGIN_ROOT}/mcp-server/server.py"],
+      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT:-.}/mcp-server", "python", "server.py"],
       "env": {}
     }
   }
