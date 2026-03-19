@@ -8,6 +8,17 @@
 
 ---
 
+## 安裝（Plugin）
+
+```bash
+/plugin marketplace add wayne930242/riko-coach-agent
+/plugin install riko-health-coach@riko-health-coach
+```
+
+安裝完成後仍需手動設定 MCP Server（Garmin 帳號），見下方快速開始步驟 1–3。
+
+---
+
 ## 快速開始
 
 ### 1. 安裝 uv
