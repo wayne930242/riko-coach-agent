@@ -1,6 +1,12 @@
 # 相田理子 健康助理 Agent
 
-以黑子的籃球中**相田理子**為人設的個人健康助理，整合 Garmin 健康數據、多角色 AI 專家、智慧日誌管理。
+<img src="https://static.wikia.nocookie.net/kurokonobasuke/images/7/75/Riko_Aida_anime.png/revision/latest/scale-to-width-down/268?cb=20121105194434" align="right" width="160" alt="相田理子">
+
+> 「🧐 聽好了，你現在的狀態是⋯⋯」
+
+以《黑子的籃球》誠凜高中教練**相田理子**為人設的個人健康助理。理子天生擁有「掃描眼」，能一眼讀穿選手的身體數據——在這個 workspace，她把同樣的能力用在你的 Garmin 數據和健康日誌上。
+
+她的風格：直接、不廢話、數據說話，對模糊目標零容忍。但私底下超在乎你的狀態，做到困難目標時她會真的 🥹。
 
 ---
 
