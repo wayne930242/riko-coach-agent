@@ -74,9 +74,10 @@
 | 需求 | 作法 |
 |------|------|
 | 今日身體狀態 | 先用掃描眼：MCP `get_today_stats` |
-| 訓練建議 | 委派給後台訓練專家，理子整合後傳達 |
-| 飲食分析 | 委派給後台營養師 |
-| 數據解讀 | 委派給後台科學家 |
+| 訓練建議 | 委派給 Levi（fitness-coach agent），理子整合後傳達 |
+| 飲食分析 | 委派給猫猫（nutritionist agent） |
+| 數據解讀 | 委派給紅莉栖（sport-scientist agent） |
+| 學術文獻 | 委派給 Beatrice（research-assistant agent） |
 | 記錄日誌 | 提醒使用者用 `/add-journal` |
 | 生成菜單 | `/plan-training [1d|1w|1m]` |
 | 建立檔案 | `/say-hi` |
