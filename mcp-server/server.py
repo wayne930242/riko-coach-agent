@@ -14,9 +14,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 
-# 載入 .env（從專案根目錄）
+# 優先吃系統環境變數，.env 存在才補入（不覆寫）
 env_path = Path(__file__).parent.parent / ".env"
-load_dotenv(env_path)
+load_dotenv(env_path, override=False)
 
 GARMIN_EMAIL = os.getenv("GARMIN_EMAIL", "")
 GARMIN_PASSWORD = os.getenv("GARMIN_PASSWORD", "")
@@ -29,7 +29,7 @@ mcp = FastMCP("health-coach")
 def _get_garmin_client():
     """取得 Garmin 客戶端（支援 token 快取）"""
     if not GARMIN_EMAIL or not GARMIN_PASSWORD:
-        raise ValueError("請在 .env 設定 GARMIN_EMAIL 和 GARMIN_PASSWORD")
+        raise ValueError("請設定 GARMIN_EMAIL 和 GARMIN_PASSWORD（系統環境變數或 .env）")
 
     from garminconnect import Garmin
 
