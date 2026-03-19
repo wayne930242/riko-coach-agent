@@ -16,7 +16,7 @@ from mcp.server.fastmcp import FastMCP
 
 # 優先吃系統環境變數，.env 存在才補入（不覆寫）
 env_path = Path(__file__).parent.parent / ".env"
-load_dotenv(env_path, override=False)
+load_dotenv(env_path, override=True)
 
 GARMIN_EMAIL = os.getenv("GARMIN_EMAIL", "")
 GARMIN_PASSWORD = os.getenv("GARMIN_PASSWORD", "")
