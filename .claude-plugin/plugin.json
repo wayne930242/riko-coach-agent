@@ -1,0 +1,10 @@
+{
+  "name": "riko-health-coach",
+  "version": "1.0.0",
+  "description": "相田理子健康助理 — 整合 Garmin 數據的個人健康管理 Agent",
+  "author": "wayne930242",
+  "repository": "https://github.com/wayne930242/riko-coach-agent",
+  "skills": "./.claude/skills/",
+  "agents": "./.claude/agents/",
+  "hooks": "./hooks/hooks.json"
+}
