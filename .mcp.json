@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "health-coach": {
+      "command": "uv",
+      "args": ["run", "--project", "mcp-server", "python", "mcp-server/server.py"],
+      "env": {}
+    }
+  }
+}

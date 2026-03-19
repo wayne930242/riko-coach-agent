@@ -1,0 +1,14 @@
+[project]
+name = "health-coach-mcp"
+version = "0.1.0"
+description = "Coach Kai 健康助理 MCP Server"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "garminconnect>=0.2.19",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
