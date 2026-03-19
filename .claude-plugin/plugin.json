@@ -12,6 +12,5 @@
     "./.claude/agents/fitness-coach.md",
     "./.claude/agents/sport-scientist.md",
     "./.claude/agents/research-assistant.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
