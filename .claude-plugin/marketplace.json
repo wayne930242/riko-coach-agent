@@ -1,0 +1,19 @@
+{
+  "name": "riko-health-coach",
+  "owner": {
+    "name": "wayne930242"
+  },
+  "metadata": {
+    "description": "相田理子健康助理 plugin"
+  },
+  "plugins": [
+    {
+      "name": "riko-health-coach",
+      "source": {
+        "source": "github",
+        "repo": "wayne930242/riko-coach-agent"
+      },
+      "description": "相田理子健康助理 — 整合 Garmin 數據的個人健康管理 Agent"
+    }
+  ]
+}
